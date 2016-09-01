@@ -105,6 +105,9 @@ B *testB = [B new];
 ```
 打印结果
 > 2016-09-01 15:52:47.378 PrivatePropertyDemo[5736:245091] A 类私有变量
+
 > 2016-09-01 15:52:47.379 PrivatePropertyDemo[5736:245091] B 类私有变量
+
 > 2016-09-01 15:52:47.379 PrivatePropertyDemo[5736:245091] B 类私有变量
+
 > 2016-09-01 15:52:47.379 PrivatePropertyDemo[5736:245091] A 类私有变量

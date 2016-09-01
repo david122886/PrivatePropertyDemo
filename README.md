@@ -111,3 +111,6 @@ B *testB = [B new];
 > 2016-09-01 15:52:47.379 PrivatePropertyDemo[5736:245091] B 类私有变量
 
 > 2016-09-01 15:52:47.379 PrivatePropertyDemo[5736:245091] A 类私有变量
+
+##原因
+使用@property (strong,nonatomic) NSString *a;创建属性时，编译器会为我们创建对应-(NSString*)getA();-(void)setA:(NSString*)a;方法。self.a其实是调用getA()方法返回对象_a属性，子类和父类都使用@property**在.m文件创建属性**时，子类会覆盖父类getA()方法返回是子类_a属性，

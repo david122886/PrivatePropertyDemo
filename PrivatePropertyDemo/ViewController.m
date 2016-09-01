@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "B.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    B *testB = [B new];
+    [testB testProperty];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

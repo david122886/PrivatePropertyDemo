@@ -4,9 +4,9 @@
 1. 先创建一个父类A.h：
         #import <Foundation/Foundation.h>
 
-    @interface A : NSObject
-    -(void)testProperty;
-    @end        
+@interface A : NSObject
+-(void)testProperty;
+@end        
 
 创建一个公有方法接口 >-(void)testProperty
 2. A.m:

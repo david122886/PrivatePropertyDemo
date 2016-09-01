@@ -22,13 +22,13 @@
     return self;
 }
 -(void)testA{
-    NSLog(@"%@",_a);
-    NSLog(@"%@",self.a);
+    NSLog(@"%@",_a);//1
+    NSLog(@"%@",self.a);//2
     __weak typeof(self) weakSelf = self;
     void(^dd)() = ^(){
         typeof(self) ww = weakSelf;
-        NSLog(@"%@",ww.a);
-        NSLog(@"%@",ww->_a);
+        NSLog(@"%@",ww.a);//3
+        NSLog(@"%@",ww->_a);//4
     };
     dd();
 }

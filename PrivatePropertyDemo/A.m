@@ -8,12 +8,10 @@
 
 #import "A.h"
 @interface A()
+@property (assign,nonatomic) int a;///和父类同名私有方法
 
 @end
-@implementation A{
-    @public
-    int  _a;
-}
+@implementation A
 
 -(instancetype)init{
     self = [super init];

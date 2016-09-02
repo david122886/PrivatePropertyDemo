@@ -8,11 +8,10 @@
 
 #import "B.h"
 @interface B()
-//@property (strong,nonatomic) NSString *a;///和父类同名私有方法
+//@property (assign,nonatomic) int a;///和父类同名私有方法
 @end
 
 @implementation B{
-    @public
     int _a;
 }
 
@@ -23,7 +22,4 @@
     }
     return self;
 }
-//-(NSString*)a{
-//    return _a;
-//}
 @end

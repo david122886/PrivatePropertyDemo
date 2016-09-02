@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrivatePropertyDemo/A.m"
-            timestampString = "494415145.131869"
+            timestampString = "494415687.336607"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "-testA"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PrivatePropertyDemo/B.m"
-            timestampString = "494415150.860376"
+            filePath = "PrivatePropertyDemo/ViewController.m"
+            timestampString = "494472745.253544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "-init"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrivatePropertyDemo/A.m"
-            timestampString = "494415155.324035"
+            timestampString = "494472812.79592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-init"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-testProperty"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PrivatePropertyDemo/ViewController.m"
-            timestampString = "494415173.979822"
+            filePath = "PrivatePropertyDemo/A.m"
+            timestampString = "494473010.399449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-testA"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

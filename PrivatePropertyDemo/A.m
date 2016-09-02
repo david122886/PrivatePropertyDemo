@@ -8,27 +8,29 @@
 
 #import "A.h"
 @interface A()
-@property (strong,nonatomic) NSString *a;
 
 @end
-@implementation A
+@implementation A{
+    @public
+    int  _a;
+}
 
 -(instancetype)init{
     self = [super init];
     if (self) {
 //        self.a = @"A 类私有变量";
-        _a = @"A 类私有变量";
+        _a = 111;
     }
     return self;
 }
 -(void)testA{
-    NSLog(@"%@",_a);//1
-    NSLog(@"%@",self.a);//2
+    NSLog(@"%d",_a);//1
+    NSLog(@"%d",self.a);//2
     __weak typeof(self) weakSelf = self;
     void(^dd)() = ^(){
         typeof(self) ww = weakSelf;
-        NSLog(@"%@",ww.a);//3
-        NSLog(@"%@",ww->_a);//4
+        NSLog(@"%d",ww.a);//3
+        NSLog(@"%d",ww->_a);//4
     };
     dd();
 }
@@ -36,4 +38,8 @@
 -(void)testProperty{
     [self testA];
 }
+-(int)a{
+    return _a;
+}
+
 @end

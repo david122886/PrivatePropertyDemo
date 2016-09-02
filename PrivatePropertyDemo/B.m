@@ -8,19 +8,22 @@
 
 #import "B.h"
 @interface B()
-@property (strong,nonatomic) NSString *a;///和父类同名私有方法
+//@property (strong,nonatomic) NSString *a;///和父类同名私有方法
 @end
 
-@implementation B
+@implementation B{
+    @public
+    int _a;
+}
 
 -(instancetype)init{
     self = [super init];
     if (self) {
-        _a = @"B 类私有变量";
+        _a = 222;
     }
     return self;
 }
--(NSString*)getA{
-    return _a;
-}
+//-(NSString*)a{
+//    return _a;
+//}
 @end
